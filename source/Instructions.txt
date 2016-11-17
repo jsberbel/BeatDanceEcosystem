@@ -1,0 +1,13 @@
+Instructions
+
+Cal jugar al joc amb música per entendre el comportament dels enemics, altrament l'experiència es veu perjudicada.
+S'ha fet ús de la llibreria FMOD (~ SDL_Mixer) i 2 classes complementàries per desenvolupar-ho.
+
+Les mecàniques de control es basen en moure al nostre player amb les fletxes del teclat per evitar als enemics que circulen per l'escenari ballant.
+Els enemics són uns ballarins diabòlics que cambien el seu comportament segons el ritme de la cançó que està sonant.
+Hi ha 10 nivells, cal fer ús dels números del 0 al 9 per pujar el nivell de dificultat alhora que canviem la cançó.
+Els enemics poden seguir 2 patrons de comportament dels Steering Behaviors: Wander i Flocking+Seeking.
+En incrementar la dificultat, incrementa la seva velocitat de moviment per cada beat.
+
+Cal destacar també que no totes les cançons funcionen igual de bé pel que fa al ritme dels ballarins, degut a la percussió i la sonoritat d'aquestes.
+Les que donen millors resultats són: Billie Jean, Disco Inferno, Maniac, Boys boys boys i Back to Black.
