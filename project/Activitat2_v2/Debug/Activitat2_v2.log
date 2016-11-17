@@ -1,0 +1,34 @@
+﻿  SDL2_rotozoom.c
+  SDL2_gfxPrimitives.c
+  SDL_FontCache.c
+  Generating Code...
+  TimeStamp.cpp
+  SteeringGroup.cpp
+  Constants.h
+  FlowObstacle.cpp
+  FlowFieldState.cpp
+  FlowField.cpp
+  BaseState.cpp
+  BeatDetector.cpp
+  Generating Code...
+  Obstacle.cpp
+  SimplePath.cpp
+  Player.cpp
+  Path.cpp
+  MenuState.cpp
+  Main.cpp
+  Display.cpp
+  Trail.cpp
+  Timer.cpp
+  StateManager.cpp
+  App.cpp
+  RotatedText.cpp
+  Texture.cpp
+  InputSingleton.cpp
+  BitmapFont.cpp
+  Entity.cpp
+  Boid.cpp
+  EcosystemState.cpp
+  Generating Code...
+  Activitat2_v2.vcxproj -> C:\JORDI SERRANO BERBEL\ENTI\Tercer Curs\Inteligencia artificial\Activitat2_v2\project\Activitat2_v2\..\..\bin\Activitat2_v2.exe
+  Activitat2_v2.vcxproj -> C:\JORDI SERRANO BERBEL\ENTI\Tercer Curs\Inteligencia artificial\Activitat2_v2\project\Activitat2_v2\..\..\bin\Activitat2_v2.pdb (Full PDB)

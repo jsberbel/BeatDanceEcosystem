@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{5bdc9c2f-0017-4643-b29d-fd8610741752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common">
+      <UniqueIdentifier>{8cc192ea-239d-48f1-94e9-3c9240db0b23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{e11d6dbe-6fc6-4fcc-80d1-8e31d2350c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\SDL_FontCache">
+      <UniqueIdentifier>{0ee5c641-f10c-4ba9-984b-fc6e9e9083ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\SDL_gfx">
+      <UniqueIdentifier>{ac4b8d7a-69a5-4539-8a1f-188d2b6e730e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{6c8b6373-5ab7-4c1b-8d0e-fc0d3e1f8672}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Fonts">
+      <UniqueIdentifier>{dc0fbc13-1ad1-4b7e-9744-30848737b074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Images">
+      <UniqueIdentifier>{3dd2b189-a2a2-441d-a09d-6095d5dbb8e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Entity">
+      <UniqueIdentifier>{97817c78-4cd8-4109-bea1-c36821272c76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Utils">
+      <UniqueIdentifier>{acd9dbc1-577c-49fa-8ca0-cf418f2f0023}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Text">
+      <UniqueIdentifier>{a0ea47e3-24e4-44f6-a3c5-beb35c6290a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Graphics">
+      <UniqueIdentifier>{6b445c0e-a3f7-4683-bb5c-c083345deb01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\State">
+      <UniqueIdentifier>{4880c849-029d-4534-8872-b782195d1f04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\Utils\Juice">
+      <UniqueIdentifier>{cc5b592a-9bad-4eb2-bf17-f22bbcdaa42c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Common\System">
+      <UniqueIdentifier>{9d721bc9-9d68-4093-b07b-023a5b936a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{70a8fabf-d24c-4a82-a637-7aa1eaaf9408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utils">
+      <UniqueIdentifier>{8e5f5385-905d-48a2-8aa7-7762dac004d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{2cab9a7c-190b-4d25-b689-e8cb950fe0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\Music">
+      <UniqueIdentifier>{589ac939-2b83-46a0-92fb-348b30dfb663}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dependencies\SDL_gfx\SDL2_gfxPrimitives.c">
+      <Filter>Dependencies\SDL_gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\SDL_gfx\SDL2_rotozoom.c">
+      <Filter>Dependencies\SDL_gfx</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dependencies\SDL_FontCache\SDL_FontCache.c">
+      <Filter>Dependencies\SDL_FontCache</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\Entity.cpp">
+      <Filter>Source Files\Common\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\StateManager.cpp">
+      <Filter>Source Files\Common\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\App.cpp">
+      <Filter>Source Files\Common\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\Texture.cpp">
+      <Filter>Source Files\Common\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\BitmapFont.cpp">
+      <Filter>Source Files\Common\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\RotatedText.cpp">
+      <Filter>Source Files\Common\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\Timer.cpp">
+      <Filter>Source Files\Common\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\Trail.cpp">
+      <Filter>Source Files\Common\Utils\Juice</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\Display.cpp">
+      <Filter>Source Files\Common\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\InputSingleton.cpp">
+      <Filter>Source Files\Common\System</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\MenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Path.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SimplePath.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Player.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Boid.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Obstacle.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\EcosystemState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Constants.h">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\BaseState.cpp">
+      <Filter>Source Files\Common\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\FlowFieldState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\SteeringGroup.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\FlowObstacle.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\FlowField.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\BeatDetector.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\TimeStamp.cpp">
+      <Filter>Source Files\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\dependencies\SDL_gfx\SDL2_gfxPrimitives.h">
+      <Filter>Dependencies\SDL_gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\SDL_gfx\SDL2_gfxPrimitives_font.h">
+      <Filter>Dependencies\SDL_gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\SDL_gfx\SDL2_rotozoom.h">
+      <Filter>Dependencies\SDL_gfx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\dependencies\SDL_FontCache\SDL_FontCache.h">
+      <Filter>Dependencies\SDL_FontCache</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\StateManager.h">
+      <Filter>Source Files\Common\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Utilities.h">
+      <Filter>Source Files\Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Vector2D.h">
+      <Filter>Source Files\Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\App.h">
+      <Filter>Source Files\Common\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Texture.h">
+      <Filter>Source Files\Common\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\BitmapFont.h">
+      <Filter>Source Files\Common\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\RotatedText.h">
+      <Filter>Source Files\Common\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Timer.h">
+      <Filter>Source Files\Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Trail.h">
+      <Filter>Source Files\Common\Utils\Juice</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Display.h">
+      <Filter>Source Files\Common\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\InputSingleton.h">
+      <Filter>Source Files\Common\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Colors.h">
+      <Filter>Source Files\Common\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SteeringUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FlockingUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\CombiningSteeringUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\AdvancedSteeringUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FlowFieldUtils.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\Entity.h">
+      <Filter>Source Files\Common\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\EcosystemState.h">
+      <Filter>Source Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\MenuState.h">
+      <Filter>Source Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Path.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Obstacle.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SimplePath.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Boid.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\BaseState.h">
+      <Filter>Source Files\Common\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FlowFieldState.h">
+      <Filter>Source Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Player.h">
+      <Filter>Source Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\Common\GameFramework.h">
+      <Filter>Source Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\SteeringGroup.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FlowObstacle.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\FlowField.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\BeatDetector.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\TimeStamp.h">
+      <Filter>Source Files\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\..\resources\Fonts\nokiafc22.ttf">
+      <Filter>Resources\Fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\resources\Images\Boid.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+    <Image Include="..\..\resources\Images\Player.png">
+      <Filter>Resources\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\source\Instructions.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Activitat2_v2.licenseheader" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="..\..\resources\Music\JailhouseRock.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\Maniac.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\NeverGonnaGiveYouUp.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\StayinAlive.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\SweetDreams.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\UCantTouchThis.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\AnotherOneBitesTheDust.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\BackInBlack.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\BillieJean.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+    <Media Include="..\..\resources\Music\DaddyCool.mp3">
+      <Filter>Resources\Music</Filter>
+    </Media>
+  </ItemGroup>
+</Project>
