@@ -1,0 +1,22 @@
+========================
+XX DISCO DANCE ECOSYSTEM
+========================
+@autor JordiSerranoBerbel
+
+Aquesta simulació es basa en aplicar els coneixements apresos al llarg de la primera part del temari 
+en un sistema de joc divertit i entretingut que bàsicament incorpora el comportament de Wander amb modificacions 
+del delta time dels enemics. També hi ha un comportament de Flocking + Seeking, tot i que pel que fa a la jugabilitat 
+no és tan atractiva com ara amb Wander.
+
+El joc tracta d’aconseguir la màxima puntuació possible mentre van apareixent més i més enemics que ballen al ritme 
+de la música que sona. Hi ha 10 cançons a les quals podem accedir amb els números del teclat i estan ordenades per 
+ordre de dificultat, 0 més fàcil a 9 més difícil.
+
+La dificultat del joc està modulada pel delta time que passem a l’update dels enemics (objectes de la classe Boid), 
+no és la millor forma d’implementar-ho però els resultats tal i com està plantejada la base, ja són els adequats 
+mentre tinguem en compte que també utilitzem la delta time que passem com a paràmetre de la funció d’update del Player.
+Així doncs existeix un multiplicador per a cada cançó que determina la rapidesa (impuls) dels enemics quan s’ha 
+propiciat el darrer beat de la melodia.
+
+A les instruccions es detalla com jugar, tot i que el sistema base ja venia donat. Les classes modificades principalment
+han estat BeatDetector, EcosystemState, MenuState i TimeStamp, des de le quals s'ha pogut fer ús de totes les demés funcions.
